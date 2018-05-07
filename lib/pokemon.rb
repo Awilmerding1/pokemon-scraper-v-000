@@ -26,8 +26,8 @@ class Pokemon
      self.new(id: pokemon[0], name: pokemon[1], type: pokemon[2], db: db, hp: 60)
   end
   
-  def alter_hp()
-    db.execute()
+  def alter_hp(new_hp, db)
+    db.execute("")
   end
   
 end
